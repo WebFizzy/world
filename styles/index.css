@@ -467,7 +467,7 @@ border-radius: 0%;
   }
   .butt {
     padding: .5rem 1rem;
-    border-radius: 50%;
+    border-radius: 30%;
     /* spaci */
     font-size: 13px;
   }
@@ -516,15 +516,6 @@ border-radius: 0%;
   .earth1 {
     padding-bottom: 3rem;
   }
-  .buutt {
-    width: 40%;
-    height: 1rem;
-  }
-  .butt {
-    padding: .3rem .8rem;
-    /* spaci */
-    font-size: 12px;
-  }
 
   .swipe .four {
     font-size: 14px;
@@ -540,6 +531,15 @@ border-radius: 0%;
   .earth4 {
     top: 5.8rem;
     right: 1.4rem;
+  }
+  .buutt {
+    width: 40%;
+    height: 1rem;
+  }
+  .butt {
+    padding: .3rem .8rem;
+    /* spaci */
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -707,10 +707,10 @@ border-radius: 0%;
 @media screen and (max-width: 870px) {
 
   .top3-image {
-    width: 60%;
+    width: 30%;
   }
   .top3-image img {
-    width: 55%;
+    width: 85%;
   }
   .about h1 {
 
@@ -727,7 +727,7 @@ border-radius: 0%;
     /* width: 60%; */
   }
   .top3-image img {
-    width: 60%;
+  /* width: 60%; */
   }
   .allbox {
     width: 70%;
@@ -757,7 +757,7 @@ border-radius: 0%;
   }
 }
 @media screen and (max-width: 520px) {
-  .top3-image {
+  .top3-image img {
      width: 80%; 
   }
 }
