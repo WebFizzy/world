@@ -1693,7 +1693,7 @@ border-radius: 0%;
 }
 @media screen and (max-width: 400px)  {
   .meta2 img {
-    height: 45vh;
+    height: 40vh;
   }
 }
 
