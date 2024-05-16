@@ -755,6 +755,11 @@ border-radius: 0%;
     text-align: center;
   }
 }
+@media screen and (max-width: 520px) {
+  .top3-image {
+     width: 80%; 
+  }
+}
 
 
 
