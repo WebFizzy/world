@@ -1080,8 +1080,11 @@ border-radius: 0%;
     margin: auto;
   }
 }
-
-
+@media screen and (max-width: 400px) {
+  .video-sec {
+	margin-bottom: 3.5rem;  
+  }
+}
 
 
 /* Plan */
