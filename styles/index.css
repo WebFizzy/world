@@ -611,6 +611,7 @@ border-radius: 0%;
   }
   .butt {
     padding: .5rem 1rem;
+    gap:1rem;
     /* spaci */
     font-size: 13px;
    }
@@ -1691,7 +1692,11 @@ border-radius: 0%;
     height: 50vh;
   }
 }
-
+@media screen and (max-width: 400px)  {
+  .meta2 img {
+    height: 45vh;
+  }
+}
 
 
 
