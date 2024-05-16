@@ -1266,7 +1266,7 @@ border-radius: 0%;
 /* second swiper sec */
 
 #icon-sec {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('../images/pics/metaWol.png');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('../images/pics/metaWol.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
