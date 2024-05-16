@@ -312,7 +312,7 @@ section > h1 {
   width: 80%;
 }
 .buutt {
-  width: 28%;
+  width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -320,7 +320,7 @@ section > h1 {
 
 }
 .bbtn {
-  max-width: 100%;
+  width: 60%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -611,7 +611,7 @@ border-radius: 0%;
   }
   .butt {
     padding: .5rem 1rem;
-    width: 60%;
+    width: 20%;
     /* spaci */
     font-size: 13px;
    }
