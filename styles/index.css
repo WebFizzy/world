@@ -611,7 +611,7 @@ border-radius: 0%;
   }
   .butt {
     padding: .5rem 1rem;
-    width: 20%;
+    width: 100%;
     /* spaci */
     font-size: 13px;
    }
@@ -707,10 +707,10 @@ border-radius: 0%;
 @media screen and (max-width: 870px) {
 
   .top3-image {
-    width: 30%;
+    width: 60%;
   }
   .top3-image img {
-    width: 85%;
+    width: 70%;
   }
   .about h1 {
 
