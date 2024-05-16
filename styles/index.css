@@ -576,6 +576,40 @@ border-radius: 0%;
     height: 3rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .earth1 {
+    padding-top: 5rem;
+  }
+
+  .swipe {
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+    display: block;
+    /* width: 60%; */
+  }
+  .swipe-cont {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .solu {
+    line-height: 2;
+
+  }
+  .earth2 {
+    padding: 0%;
+    margin-top: 2rem;
+  }
+  .earth4 {
+    top: 1.2rem;
+    right: 1.1rem;
+  }
+  .buutt {
+    width: 52%;
+    margin: auto;
+    height: 3rem;
+  }
+}
 
 
 /* Gold view */
