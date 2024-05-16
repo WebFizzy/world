@@ -1082,8 +1082,12 @@ border-radius: 0%;
 }
 @media screen and (max-width: 400px) {
   .video-sec {
-	margin-bottom: 3.5rem;  
+	margin-bottom: 2rem;  
   }
+.cont-icon {
+  /* gap: 2rem; */
+  margin-top: 1.6rem;
+}
 }
 
 
