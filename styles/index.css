@@ -613,8 +613,8 @@ border-radius: 0%;
   .butt {
     padding: .8rem 1.2rem;
     /* spaci */
-    border-radius: .3rem;
-    font-size: 13px;
+    border-radius: .1rem;
+    font-size: 15px;
    }
 }
 
