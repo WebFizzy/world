@@ -593,7 +593,7 @@ border-radius: 0%;
     text-align: center;
   }
   .solu {
-    line-height: 2;
+    line-height: 1.5;
 
   }
   .earth2 {
@@ -605,7 +605,7 @@ border-radius: 0%;
     right: 1.1rem;
   }
   .buutt {
-    width: 52%;
+    width: 53%;
     margin: auto;
     height: 3rem;
   }
