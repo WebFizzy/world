@@ -156,14 +156,7 @@ section > h1 {
   font-size: 1.3rem;
   padding: .3rem .5rem;
 }
-.navbar-toggler {
-  background: linear-gradient(75deg, #00bce6, #2962ff 50.31%, #d500f9);
-  /* background-color: black; */
-}
-.navbar span {
-  color: white;
-  /* background-color: white; */
-}
+
 
 
 .three {
