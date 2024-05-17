@@ -40,16 +40,16 @@
       <!-- <img src="./images/pics/slide1.jpg" alt=""> -->
 
       <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">WORLDGOLDPROJECT</a>
+        <a class="navbar-brand" href="./index.html">WORLDGOLDPROJECT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link" href="#">Disabled</a>
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./about.html">About Us</a>
+            <a class="nav-item nav-link" href="./pricing.html">Pricing</a>
+            <a class="nav-item nav-link" href="./login.html">Sign In</a>
           </div>
         </div>
       </nav>
@@ -74,20 +74,17 @@
               <img src="./images/icons/gold w.png" alt="">
             </div>
           </div>  
-          <!-- <div class="swipe-btn bbtn">
-            <a href="{{ url('plan') }}" class="btn butt primary">WHITE PAPER</a>
-            <a href="{{ url('about') }}" class="btn butt">GET STARTED</a>
-          </div> -->
         </div>
         <div class="buutt">
           <div class="bbtn">
             <a href="{{ url('plan') }}" class="btn butt primary">WHITE PAPER</a>
-            <!-- <a href="{{ url('about') }}" class="btn butt">GET STARTED</a> -->
           </div>
           <div class="bbtn">
-            <!-- <a href="{{ url('plan') }}" class="btn butt primary">WHITE PAPER</a> -->
+            <a href="./register.html" class="btn butt">GET STARTED</a>
+          </div>          
+          <!-- <div class="bbtn">
             <a href="{{ url('about') }}" class="btn butt">GET STARTED</a>
-          </div>
+          </div> -->
         </div>
         
  
@@ -314,7 +311,7 @@
                 <p id="amt">1.5% Daily</p>               
                 <div class="pro-list">
                  <ul>
-                   <li><i class="fa-solid fa-circle-check good"></i>Minimum: $300</li>
+                   <li><i class="fa-solid fa-circle-check good"></i>Minimum: $200</li>
                    <li><i class="fa-solid fa-circle-xmark"></i>Maximum: $999</li>
                    <li><i class="fa-solid fa-circle-xmark"></i>Profit Withrawal: 7days 
                    </li>              <li><i class="fa-solid fa-circle-xmark"></i>Capital Withrawal: 10days</li>
@@ -380,30 +377,10 @@
             </div>
           </div>
       </div>
-
-      <!-- <div class="pay">
-        <p>Payment Methods</p>
-        <div class="pay1">
-          <div class="pay2">
-            <img src="./images/btc pay.png" alt="">
-          </div>
-          <div class="pay2">
-            <img src="./images/eth pay.png" alt="">
-          </div>
-         
-          <div class="pay3">
-            <img src="./images/bnb logo.png" alt="">
-          </div>
-          <div class="pay3">
-            <img src="./images/usdt pay.png" alt="">
-          </div> 
-        </div>
-      </div> -->
     </section>
 
     <section id="icon-sec">
       <div class="icons">
-        <!-- <div class="icon-container"> -->
           <div class="run2">
             <span>
               <i class="uil uil-coins"></i>
@@ -413,15 +390,7 @@
               <p>Successful Investment</p>
             </div>
           </div>
-          <!-- <div class="run2">
-            <span>
-              <i class="uil uil-users-alt"></i>
-            </span>
-            <div class="c-run">
-              <b>197+</b>
-              <p>Happy Clients</p>
-            </div>
-          </div> -->
+
           <div class="run2">
             <span>
               <i class="uil uil-chart-line"></i>
@@ -449,8 +418,6 @@
               <p>Happy Clients</p>
             </div>
           </div>
-
-        <!-- </div> -->
       </div>
 
       <div class="whiteDiv"></div>
@@ -512,15 +479,15 @@
           </div>
           
           <div class="meta5">
-            <a href="" class="btn butt">Get Started</a>
-            <a href="" class="btn butt primary">Sign In Now!</a>
+            <a href="./register.html" class="btn butt">Get Started</a>
+            <a href="./login.html" class="btn butt primary">Sign In Now!</a>
           </div>
           
         </div>
       </div>
     </section>
 
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="container0">
         <div class="faq-head">
           <p>Our FAQs</p>
@@ -582,7 +549,7 @@
         <div class="footer">
           <h3>
           <!-- {{ env('APP_NAME') }} -->
-          WORLDGOLD
+          WORLDGOLDPROJECT
           </h3>
           <p>We offer Global commodity brokerage services, managed futures consultation, direct access trading, and trading system execution services to individuals, corporations and industry professionals.</p>
         </div>
@@ -594,8 +561,8 @@
           <a href="./about.html">About Us</a>
           <a href="./terms.html">Terms</a>
           <a href>Login</a>
-          <a href="./faq.html">FAQ</a>
-          <a href="./contact.html">Contact Us</a>
+          <a href="#faq">FAQ</a>
+          <a href="./pricing.html">Pricing</a>
         </div>
 
         <div class="footer">
