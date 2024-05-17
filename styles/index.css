@@ -1856,6 +1856,46 @@ section > h1 {
 .abttt h4 span {
   font-weight: bold;
 }
+@media screen and (max-width: 840px)   {
+  .abt {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .abt h1 {
+   font-size: 70px;
+  }
+  .abt-second {
+    max-width: 100%;
+  }
+}
+ 
+@media screen and (max-width: 440px)   {
+  .ab {
+  }
+  
+  .abt {
+    max-width: 100%;
+  }
+  .abt h1 {
+   font-size: 50px;
+  }
+  .abt h4 {
+    line-height: 1.5;
+  }
+  
+  .abt span {
+  }
+  .abt-second {
+    max-width: 100%;
+  }
+  .abtt h3 {
+    font-size: 18px;
+  }
+}
+
+
+
 
 /* PRICING */
 
