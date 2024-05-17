@@ -1448,11 +1448,11 @@ section > h1 {
   .meta2 img {
     height: 40vh;
   }
-/* 		 .meta5 .butt {
+ .meta5 .butt {
     width: 40%;
-    padding: .8rem .6rem;
+/*     padding: .8rem .6rem; */
     font-size: 16px
-  } */
+  }
 }
 
 
