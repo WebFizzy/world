@@ -66,3 +66,15 @@ class CountUp {
   // Initialize any number of counters:
   new CountUp('#start1', '#counter1')
   new CountUp('#start2', '#counter2')
+
+
+
+  // page loader
+  window.addEventListener('load', function() {
+    var loader1 = document.querySelector('.loader-container');
+    var content = document.querySelector('.content');
+
+    loader1.style.display = 'none'; // Hide loader
+    content.style.display = 'block'; // Show content
+});
+
